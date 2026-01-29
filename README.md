@@ -47,7 +47,7 @@ Bash
 
 python AIsimulator.py
 
-##📊 Cómo interpretar los resultados
+## 📊 Cómo interpretar los resultados
 Línea Azul: Precio real histórico de los últimos 6 meses.
 
 Línea Roja Punteada: Proyección de la IA para los próximos 15 días.
