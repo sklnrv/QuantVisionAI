@@ -41,6 +41,7 @@ Instalar dependencias: Se recomienda usar un entorno virtual (venv).
 Bash
 
 python -m pip install -r requirements.txt
+
 Ejecutar el simulador:
 
 Bash
