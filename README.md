@@ -22,6 +22,14 @@ This project demonstrates:
 - Clean, executable Python code
 - Ability to explain results clearly
 
+## Skills Demonstrated
+
+- Python programming fundamentals
+- Financial simulation logic
+- Rule-based investment strategies
+- Project documentation and structure
+- GitHub-based project management
+
 ## Documentation (Notion)
 - https://www.notion.so/Quant-Investment-Simulator-2f7227a9f96d806a82eefec42040a657?source=copy_link
 
