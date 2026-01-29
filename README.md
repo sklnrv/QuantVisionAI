@@ -46,11 +46,13 @@ Ejecutar el simulador:
 Bash
 
 python AIsimulator.py
-📊 Cómo interpretar los resultados
+
+##📊 Cómo interpretar los resultados
 Línea Azul: Precio real histórico de los últimos 6 meses.
 
 Línea Roja Punteada: Proyección de la IA para los próximos 15 días.
 
 Sombreado Rojo (Alpha): Rango de Probabilidad. Debido a la volatilidad, la IA estima que el precio se mantendrá dentro de esta zona con mayor probabilidad.
 
-Descargo de responsabilidad: Este proyecto tiene fines educativos y de portafolio técnico. No constituye asesoramiento financiero real.
+##Descargo de responsabilidad
+Este proyecto tiene fines educativos y de portafolio técnico. No constituye asesoramiento financiero real.
