@@ -35,7 +35,7 @@ This project demonstrates:
 - Historical monthly prices from Yahoo Finance
 
 ## Documentation (Notion)
-- https://www.notion.so/Quant-Investment-Simulator-2f7227a9f96d806a82eefec42040a657?source=copy_link
+- https://www.notion.so/Quant-Investment-Simulator-2f7227a9f96d80148631fcd65e328b6d?source=copy_link
 
 ## How to run
 ```bash
