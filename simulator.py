@@ -1,14 +1,14 @@
+from data_provider import get_prices
+import random
+
 """
 Quant Investment Simulator
 
 This script simulates the growth of an investment over time
-using randomized monthly market returns.
+using real market data and moving average strategies.
 """
-# Simulates investment growth over a given number of months
-# initial_capital: starting investment amount
-# months: simulation duration
 
-import random
+# ---- FUNCIONES DE SIMULACIÓN Y ESTRATEGIA ----
 
 def simulate_market(days=200, start_price=10000):
     prices = [start_price]
@@ -38,41 +38,37 @@ def run_strategy(prices, capital=100000):
 
     return cash + shares * prices[-1]
 
-# ---- DATA LOADING ----
+# ---- DATA LOADING (ANTIGUO) ----
 def load_market_data():
     """
     Monthly returns based on real Nasdaq-100 historical data.
-    Source: Investing.com
-    Period: Apr 2025 – Jan 2026
     """
     return [
-        0.0904,
-        0.0627,
-        0.0238,
-        0.0085,
-        0.0540,
-        0.0477,
-        -0.0164,
-        -0.0073,
-        0.0306
+        0.0904, 0.0627, 0.0238, 0.0085, 0.0540, 
+        0.0477, -0.0164, -0.0073, 0.0306
     ]
 
-
-# ---- STRATEGY LOGIC ----
+# ---- STRATEGY LOGIC (ANTIGUO) ----
 def apply_strategy(returns, initial_capital):
     capital = initial_capital
-
     for r in returns:
         capital *= (1 + r)
-
     return capital
 
 
-# ---- MAIN EXECUTION ----
+# ---- MAIN EXECUTION (ACTUALIZADO) ----
 if __name__ == "__main__":
     initial_capital = 100000
 
-    returns = load_market_data()
-    final_capital = apply_strategy(returns, initial_capital)
+    # Obtenemos los datos en tiempo real/históricos
+    prices = get_prices(
+        asset="^NDX",
+        start_date="2023-01-01",
+        end_date="2024-01-01"
+    )
 
+    # Ejecutamos la estrategia usando los precios obtenidos
+    final_capital = run_strategy(prices, initial_capital)
+
+    print("Final capital:", round(final_capital, 2))
     print("Final capital:", round(final_capital, 2))
