@@ -22,6 +22,9 @@ This project demonstrates:
 - Clean, executable Python code
 - Ability to explain results clearly
 
+##Documentation (Notion)
+- https://www.notion.so/Quant-Investment-Simulator-2f7227a9f96d806a82eefec42040a657?source=copy_link
+
 ## How to run
 ```bash
 python simulator.py
