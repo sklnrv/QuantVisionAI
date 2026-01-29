@@ -1,3 +1,13 @@
+"""
+Quant Investment Simulator
+
+This script simulates the growth of an investment over time
+using randomized monthly market returns.
+"""
+# Simulates investment growth over a given number of months
+# initial_capital: starting investment amount
+# months: simulation duration
+
 ```python
 import random
 
