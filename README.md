@@ -21,13 +21,18 @@ Puedes ver el desglose detallado de la lógica, los objetivos de negocio y el pr
 * **Web Framework:** `Streamlit`
 * **Data API:** `yfinance` (Yahoo Finance)
 
-## 📦 Instalación y Uso Rápido (Windows)
+## 🚀 Cómo usar QuantVision IA
 
-¡Ahora puedes ejecutar el simulador sin tocar la consola!
+### Opción A: Acceso Web (Recomendado)
+Accede instantáneamente sin instalar nada a través de nuestra plataforma en la nube:
+👉 **[Ver App en Vivo (Streamlit Cloud)](https://quantvisionai.streamlit.app)**
 
-1. **Descarga** el repositorio y asegúrate de tener instalado `Python 3.x`.
-2. Haz doble clic en el archivo **`INICIAR_ANALIZADOR`**.
-3. El script configurará automáticamente un entorno virtual, instalará las dependencias y lanzará la aplicación en tu navegador.
+---
+
+### Opción B: Ejecución Local (Windows)
+1. Descarga el proyecto desde **[Releases](TU_LINK_ZIP)**.
+2. Descomprime y ejecuta `INICIAR_ANALIZADOR.vbs`.
+   * *Si no tienes Python, el asistente te abrirá automáticamente la Microsoft Store para instalarlo.*
 
 *Para usuarios de Mac/Linux:*
 ```bash
