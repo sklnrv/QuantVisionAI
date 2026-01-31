@@ -25,7 +25,7 @@ Puedes ver el desglose detallado de la lógica, los objetivos de negocio y el pr
 
 Aquí algunos resultados del análisis:
 
-![Gráfico de ejemplo](screenshoot.png)
+![Gráfico de ejemplo](results/screenshoot.png)
 
 ## 🚀 Cómo usar QuantVision IA
 
