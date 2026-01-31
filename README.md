@@ -21,7 +21,7 @@ Puedes ver el desglose detallado de la lógica, los objetivos de negocio y el pr
 * **Web Framework:** `Streamlit`
 * **Data API:** `yfinance` (Yahoo Finance)
 
-## Resultados del proyecto
+## 💹 Resultados del proyecto
 
 Aquí algunos resultados del análisis:
 
